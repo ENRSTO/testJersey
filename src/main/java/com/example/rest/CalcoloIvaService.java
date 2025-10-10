@@ -24,7 +24,7 @@ public class CalcoloIvaService {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response calcolaIva(Articolo input) {
-        double prezzoIvato = input.prezzo * 1.22;
+        double prezzoIvato = input.prezzo * 1.25;
 
         Risultato result = new Risultato();
         result.articolo = input.articolo;
