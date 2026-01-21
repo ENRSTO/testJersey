@@ -19,7 +19,7 @@ public class CalcoloIvaService {
         public double prezzoIvato;
     }
 
-   // @Path("/iva")
+    @Path("/calcola")
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)

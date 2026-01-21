@@ -27,7 +27,7 @@
 
       const payload = { articolo: articolo, prezzo: prezzo };
 
-      fetch("http://localhost:8080/testJersey/rest/iva", {
+      fetch("http://localhost:8082/testJersey/rest/iva/calcola", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
