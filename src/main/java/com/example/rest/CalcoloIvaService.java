@@ -3,7 +3,7 @@ package com.example.rest;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-
+// servizio di prova JAX rs   sdfsd
 @Path("/iva")
 public class CalcoloIvaService {
 
